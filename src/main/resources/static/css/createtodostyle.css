@@ -1,0 +1,73 @@
+body {
+	/* background-image: url("/images/fall.jpg"); */
+	/* background-image: linear-gradient(#fae9ee, #fae9ee, pink, yellow, green); */
+	height: 1200px;
+}
+
+.container {
+	background-color: #fae9ee;
+	width: 960px;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+h1 {
+	color: #ecafbd;
+}
+
+h3 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+h5 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.actions {
+	width: 140px;
+	text-align: center;
+}
+
+label {
+	width: 50%;
+	padding: 4px 4px 4px 124px;
+}
+
+select {
+	width: 30%;
+	padding: 4px 4px 4px 4px;
+}
+
+textarea {
+	width: 100%;
+	padding-left: 6px;
+}
+
+span {
+	color: red;
+}
+
+input {
+	width: 30%;
+}
+
+input.sub {
+	width: 100%;
+}
+
+.location {
+	display: inline-block;
+	width: 70%;
+}
+
+.state {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+button {
+	margin: 10px;
+}

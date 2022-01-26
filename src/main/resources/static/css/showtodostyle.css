@@ -1,0 +1,65 @@
+body {
+	/* background-image: url("/images/fall.jpg"); */
+	/* background-image: linear-gradient(#fae9ee, #fae9ee, pink, yellow, green); */
+	height: 1200px;
+}
+
+.container {
+	background-color: #fae9ee;
+	width: 960px;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+#to_delete {
+    background: none;
+    display: inline;
+    border: none;
+    padding: none;
+	margin-top: -5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(186,0,0);
+    vertical-align: middle;
+}
+
+h1 {
+	color: #ecafbd;
+}
+
+h3,h4 {
+	text-align: center;
+}
+
+span {
+	color: red;
+}
+
+hr {
+	size: 2px;
+}
+
+#center {
+	text-align: center;
+	padding: none;
+}
+
+div.eventinfo {
+    text-align: center;
+}
+
+.forma {
+	display: inline-block;
+}
+
+a.editlink {
+	display: inline-block;
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: none;
+	/* line-height: 16px; */
+	font-size: 16px;
+	vertical-align: middle;
+	margin-top: -5px;
+	width: 44px;
+}

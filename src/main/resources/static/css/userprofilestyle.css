@@ -1,0 +1,64 @@
+body {
+	/* background-image: url("/images/fall.jpg"); */
+	/* background-image: linear-gradient(#fae9ee, #fae9ee, pink, yellow, green); */
+	height: 1200px;
+}
+
+.container {
+	background-color: #fae9ee;
+	width: 960px;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+#to_delete {
+    background: none;
+    display: inline;
+    border: none;
+    padding: none;
+	margin-top: -5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(186,0,0);
+    vertical-align: middle;
+}
+
+#toDelete {
+	width: 50%;
+	display: inline-block;
+	margin: 30px 25% 0 25%;
+	padding: 6px;
+}
+
+h1 {
+	color: #ecafbd;
+}
+
+h3 {
+	text-align: center;
+}
+
+span {
+	color: red;
+}
+
+hr {
+	size: 2px;
+}
+
+input.sub {
+	padding: 6px;
+	margin: 0 30% 0 30%;
+	width: 40%;
+	display: inline-block;
+}
+
+label {
+	width: 50%;
+	padding: 4px 4px 4px 100px;
+}
+
+input {
+	width: 30%;
+}

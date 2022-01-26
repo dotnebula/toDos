@@ -1,0 +1,149 @@
+body {
+	/* background-image: url("/images/fall.jpg"); */
+	/* background-image: linear-gradient(#fae9ee, #fae9ee, pink, yellow, green); */
+	height: 1200px;
+}
+
+.container {
+	background-color: #fae9ee;
+	width: 960px;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+#to_delete {
+    background: none;
+    display: inline;
+    border: none;
+    padding: none;
+	margin-top: -5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(186,0,0);
+    vertical-align: middle;
+}
+
+.center {
+	text-align: center;
+	padding: none;
+	width: 124px
+}
+
+#description {
+	border: 2px solid #007bff;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+h1 {
+	color: #ecafbd;
+}
+
+h2, h3, h5 {
+	text-align: center;
+}
+
+span {
+	color: red;
+}
+
+button {
+	margin: 2px 0 2px 0;
+}
+
+.dateColumn{
+	width: 96px;
+	text-align: center;
+}
+
+.uColumn {
+	width:96px;
+	text-align: center;
+}
+
+.forma {
+	display: inline-block;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:block;
+    width : 300px;
+}
+
+.ellipsisName {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:block;
+    width : 56px;
+}
+
+.org {
+    display: none;
+    padding: 10px;
+    background: #fae9ee;
+    margin-bottom: 6px;
+}
+
+
+div.eventinfo {
+    text-align: center;
+}
+
+a.editlink {
+	display: inline-block;
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: none;
+	font-size: 16px;
+	vertical-align: middle;
+	margin-top: -5px;
+	width: 44px;
+}
+
+
+
+
+.scrollTable {
+	overflow: scroll;
+	max-height: 430px;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+    }    
+    
+.scrollTable thead th {
+	position: sticky;
+	top: 0;
+}
+
+table {
+	border-collapse: collapse;        
+	width: 100%;
+}
+
+table, thead, tbody, tr, th, td {
+    border: 2px solid black;
+}
+
+td.side {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+table td, table th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+th, tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+th {
+	background-color: pink;
+	text-align: center;
+}

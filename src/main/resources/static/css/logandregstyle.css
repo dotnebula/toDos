@@ -1,0 +1,31 @@
+body {
+	/* background-image: url("/images/fall.jpg"); */
+	/* background-image: linear-gradient(#fae9ee, #fae9ee, pink, yellow, green); */
+	height: 1200px;
+}
+
+.container {
+	background-color: #fae9ee;
+	width: 960px;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+h1 {
+	color: #ecafbd;
+}
+
+h3 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+input {
+	width: 100%;
+}
+
+
+button {
+	margin: 10px;
+}
